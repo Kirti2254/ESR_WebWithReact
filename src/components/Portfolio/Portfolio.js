@@ -1,11 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
-import Samsung9 from '/Users/USER/Desktop/React JS/website-react-app/src/images/Samsung Galaxy S9.png'
-import SamsungGalaxys92 from '/Users/USER/Desktop/React JS/website-react-app/src/images/Samsung Galaxy S92.png'
-import MacBook from '/Users/USER/Desktop/React JS/website-react-app/src/images/Mockup2.png'
-import iphoneX from '/Users/USER/Desktop/React JS/website-react-app/src/images/iPhone X.png'
-import Mockup from '/Users/USER/Desktop/React JS/website-react-app/src/images/Mockup.png'
-import Mockupro from '/Users/USER/Desktop/React JS/website-react-app/src/images/Macbook Pro.png'
+
 export const Portfolio = () => {
   return (
     <div>
@@ -18,7 +13,7 @@ export const Portfolio = () => {
                 <div className='portfolio-box'>
                     <div className='portfolio-box1'>
                     <div className='portfolio-box-content'>
-                       <img src={iphoneX} alt="Photo"/>
+                       <img src="./images/iphoneX.png" alt="Photo"/>
                     </div>
                     </div>
                     <div className='portfolio-img-description'>
@@ -31,7 +26,7 @@ export const Portfolio = () => {
                 <div className="portfolio-box">
                     <div className='portfolio-box2'>
                     <div className="portfolio-box-content">
-                <img src={Samsung9} alt="Photo"/>
+                <img src="./images/samsungs9.png" alt="Photo"/>
                 </div>
                     </div>
 
@@ -44,7 +39,7 @@ export const Portfolio = () => {
             <div className="portfolio-box">
                 <div className="portfolio-box3">
                 <div className="portfolio-box3-content">
-                <img src={MacBook} alt="Photo"/>
+                <img src="./images/macbookPro.png" alt="Photo"/>
                 </div>
                 </div>
                 <div className='portfolio-img-description'>
@@ -57,7 +52,7 @@ export const Portfolio = () => {
                     <div className='portfolio-box1'>
                     <div className='portfolio-box-content'>
                        {/* <img src={JewelTrek} alt="Photo"/> */}
-                       <img src={iphoneX} alt="Photo"/>
+                       <img src="./images/iphoneX.png" alt="Photo"/>
                     </div>
                     </div>
                     <div className='portfolio-img-description'>
@@ -70,7 +65,7 @@ export const Portfolio = () => {
                 <div className="portfolio-box">
                     <div className='portfolio-box2'>
                     <div className="portfolio-box-content">
-                <img src={Samsung9} alt="Photo"/>
+                <img src="./images/samsungs9.png" alt="Photo"/>
                 </div>
                     </div>
 
@@ -83,7 +78,7 @@ export const Portfolio = () => {
             <div className="portfolio-box">
                 <div className="portfolio-box3">
                 <div className="portfolio-box3-content">
-                <img src={MacBook} alt="Photo"/>
+                <img src="./images/macbookPro.png" alt="Photo"/>
                 </div>
                 </div>
                 <div className='portfolio-img-description'>

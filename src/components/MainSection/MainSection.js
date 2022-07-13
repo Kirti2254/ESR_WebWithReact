@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from '/Users/USER/Desktop/React JS/website-react-app/src/images/Image.png'
 import './MainSection.css'
 
 const MainSection = () => {
@@ -15,7 +14,7 @@ const MainSection = () => {
           </div>
           <div className='right-main-section'>
             <div className='hero-img'>
-              <img src={Image} alt = "image"/>
+              <img src="./images/Image.png" alt = "image"/>
             </div>
           </div>
       </div>
