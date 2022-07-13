@@ -1,0 +1,59 @@
+.section-header {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box-container {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.section-header-content{
+    /* text-transform: capitalize; */
+    color: #18191F;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   margin: 0 auto;
+  
+}
+.section-header-paragraph{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 14px;
+    font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+  
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+.box {
+    width: 450px;
+    height: 362px;
+    background-color: #529FA7;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
+.box-content {
+    margin-left: 20px;
+    color: white;
+}
+
+.box-content-details {
+    max-width: 60%;
+    text-align: justify;
+    color: white;
+    opacity: 0.6;
+}
