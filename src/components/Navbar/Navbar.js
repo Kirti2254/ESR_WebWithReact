@@ -19,12 +19,7 @@ const Navbar = () => {
           <li>Blog</li>
         </ul>
       </div>
-
-      {/* <div className='button'>
-      <button>Let's Talk!</button>
-      </div> */}
-
-<a href="#" class="button">codecanyon</a>
+<a href="#" class="button">Let's Talk</a>
     </div>
     </>
   )

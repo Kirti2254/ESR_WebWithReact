@@ -10,7 +10,7 @@ const Services = () => {
             <p className='section-header-paragraph'>Valuable assistance to the community and particularly to <br/> the clients we serve.</p>
         </div>
         <div className="box-container">
-            <div class="box">
+            <div className="box">
                 <div className="box-content">
                     <h2>
                         Web & Mobile

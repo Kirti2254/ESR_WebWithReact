@@ -14,8 +14,8 @@ left: 167px;
 
 .nav_items{
 height: 26px;
-width: 359px;
-left: 580px;
+width: 400px;
+left: 800px;
 top: 9px;
 border-radius: nullpx;
 position: relative;
@@ -24,7 +24,7 @@ position: relative;
 
 .nav_items_ul{
 font-family: Playfair Display;
-font-size: 15px;
+font-size: 20px;
 font-weight: 700;
 line-height: 26px;
 letter-spacing: 0px;
@@ -52,7 +52,7 @@ cursor: pointer;
 
 
 .button {
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	/* box-shadow:inset 0px 1px 0px 0px #cf866c;
 	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
 	background-color:orange;
 	border-radius:3px;
@@ -66,7 +66,17 @@ cursor: pointer;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #854629;
     margin-left: 1500px;
-    margin-top: 0;
+    margin-top: 0; */
+
+	left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF7139;
+box-shadow: 0px 16px 36px rgba(241, 139, 98, 0.301901);
+border-radius: 15px;
+text-align: right;
 }
 .button:hover {
 	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
