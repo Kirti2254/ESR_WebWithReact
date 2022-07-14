@@ -43,7 +43,7 @@ const GetInTouch = () => {
                 <div className="form-radio-buttons">
                   <div className="radio-buttons">
                     <input
-                      type="radio"
+                      type="checkbox"
                       id="html"
                       name="fav_language"
                       value="HTML"
@@ -53,7 +53,7 @@ const GetInTouch = () => {
 
                   <div className="radio-buttons">
                     <input
-                      type="radio"
+                      type="checkbox"
                       id="css"
                       name="fav_language"
                       value="CSS"
@@ -62,7 +62,7 @@ const GetInTouch = () => {
                   </div>
                   <div className="radio-buttons">
                     <input
-                      type="radio"
+                      type="checkbox"
                       id="javascript"
                       name="fav_language"
                       value="JavaScript"
@@ -73,7 +73,7 @@ const GetInTouch = () => {
                 <div className="form-radio-buttons">
                   <div className="radio-buttons">
                     <input
-                      type="radio"
+                      type="checkbox"
                       id="html"
                       name="fav_language"
                       value="HTML"
@@ -83,7 +83,7 @@ const GetInTouch = () => {
 
                   <div className="radio-buttons">
                     <input
-                      type="radio"
+                      type="checkbox"
                       id="css"
                       name="fav_language"
                       value="CSS"
@@ -92,7 +92,7 @@ const GetInTouch = () => {
                   </div>
                   <div className="radio-buttons">
                     <input
-                      type="radio"
+                      type="checkbox"
                       id="javascript"
                       name="fav_language"
                       value="JavaScript"
