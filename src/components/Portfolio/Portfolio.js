@@ -3,7 +3,8 @@ import './Portfolio.css'
 
 export const Portfolio = () => {
   return (
-    <div>
+    <div className='centerContainer'>
+        <div className='wrapper'>
         <section className='section-portfolio'>
             <div className='section-portfolio-header'>
                 <h2 className='section-portfolio-header-content'>Portfolio</h2>
@@ -92,7 +93,7 @@ export const Portfolio = () => {
 
             
         </section>
-
+        </div>
     </div>
   )
 }

@@ -1,20 +1,26 @@
 
-
-.section-header {
-    margin: 20px auto;
-    text-align: center;
+.centerContainer{
+	max-width: 90%;
+	margin: 0 auto;
+    margin-top: 10px;
+	/* border: 1px solid black; */
 }
-
-.box-container {
-    max-width: 90%;
+.wrapper {
+    margin: 2em auto;
+}
+.containerServices{
     margin: 0 auto;
+    max-width: 95%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
-    
-    
+    /* border: 1px solid red; */
+}
+
+.section-header {
+    margin: 20px auto;
+    text-align: center;
 }
 
 .section-header-content{
@@ -36,7 +42,15 @@
    font-weight: 400;
   
 }
-
+.box-container {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
 
 .box {
     width: 450px;
@@ -57,3 +71,4 @@
     color: white;
     opacity: 0.6;
 }
+

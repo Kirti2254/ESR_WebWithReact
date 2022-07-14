@@ -3,6 +3,7 @@ import './MainSection.css'
 
 const MainSection = () => {
   return (
+    <div className='centerContainer'>
     <div className='wrapper'>
       <div className='container-main-section'>
           <div className='left-main-section'>
@@ -19,6 +20,7 @@ const MainSection = () => {
           </div>
       </div>
 
+    </div>
     </div>
   )
 }

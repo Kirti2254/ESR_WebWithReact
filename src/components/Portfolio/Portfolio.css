@@ -1,3 +1,7 @@
+.wrapper {
+    margin: 2em auto;
+}
+
 .section-portfolio-header{
     margin: 20px auto;
     text-align: center;
@@ -150,3 +154,9 @@
 .portfolio-box {
     margin: 60px auto;
 }
+
+.center-container{
+	width: 90%;
+	margin:auto;
+}
+

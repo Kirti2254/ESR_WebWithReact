@@ -3,6 +3,7 @@ import "./index.css";
 
 function Testimonial() {
   return (
+   
     <div className="testimony-section">
       <div className="testimonial-container">
         <div className="testimony">
@@ -23,6 +24,7 @@ function Testimonial() {
         </div>
       </div>
     </div>
+   
   );
 }
 

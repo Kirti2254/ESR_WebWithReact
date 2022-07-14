@@ -1,15 +1,22 @@
+
+.centerContainer{
+	max-width: 90%;
+	margin: 0 auto;
+    margin-top: 10px;
+	/* border: 1px solid black; */
+}
 .wrapper {
     margin: 2em auto;
 }
 
 .container-main-section {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 95%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    /* border: 5px solid red; */
+    /* border: 1px solid red; */
 }
 
 /* @media only screen and (max-width: 600px) {
@@ -65,3 +72,4 @@
     outline: none;
     cursor: pointer;
 }
+

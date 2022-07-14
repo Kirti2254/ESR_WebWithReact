@@ -3,8 +3,9 @@ import './Services.css';
 
 const Services = () => {
   return (
-
-    <section className="section">
+    <div className='centerContainer'>
+        <div className='wrapper'>
+        <div className='containerServices'>
         <div className="section-header">
             <h2 className='section-header-content'>What We Provide</h2>
             <p className='section-header-paragraph'>Valuable assistance to the community and particularly to <br/> the clients we serve.</p>
@@ -47,7 +48,10 @@ const Services = () => {
                 </div>
             </div>
         </div>
-    </section>
+   
+    </div>
+    </div>
+    </div>
   )
 }
 

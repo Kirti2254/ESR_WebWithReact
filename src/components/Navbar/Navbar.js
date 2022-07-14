@@ -4,20 +4,31 @@ import '../Navbar/Navbar.css'
 const Navbar = () => {
   return (
     <>
-      <div className='nav_bar'>
-      <div className='logo'>
-        <img src="./images/esrlogo.png"  alt="logo"></img>
-      </div>
-      <div className='nav_items'>
-        <ul className='nav_items_ul'>
+    <div className='centerContainer'>
+    <div className='wrapper'>
+      <div className='containerNavbar'>
+          <div className='leftNavbarLogo'>
+          <img src="./images/esrlogo.png"  alt="logo"></img>
+          </div>
+          <div className='centerNavbar'>
+          <ul className='centerNavbarul'>
           <li>Home</li>
           <li>About</li>
           <li>Service</li>
           <li>Portfolio</li>
           <li>Blog</li>
         </ul>
+          </div>
+
+          <div className='rightNavbar'>
+          <button className='buttonNavbar'>
+              Let's Talk
+            </button>
+          </div>
+  
       </div>
-<a href="#" class="button">Let's Talk</a>
+
+    </div>
     </div>
     </>
   )
