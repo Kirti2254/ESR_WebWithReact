@@ -1,99 +1,68 @@
-import React from 'react'
-import './Portfolio.css'
+import React from "react";
+import "./portFolio.css";
 
 export const Portfolio = () => {
   return (
-    <div className='centerContainer'>
-        <div className='wrapper'>
-        <section className='section-portfolio'>
-            <div className='section-portfolio-header'>
-                <h2 className='section-portfolio-header-content'>Portfolio</h2>
-                <p className='section-portfolio-header-paragraph'>The Contents</p>
-            </div>
-            <div className='portfolio-box-container'>
-                <div className='portfolio-box'>
-                    <div className='portfolio-box1'>
-                    <div className='portfolio-box-content'>
-                       <img src="./images/iphoneX.png" alt="Photo"/>
-                    </div>
-                    </div>
-                    <div className='portfolio-img-description'>
-                    <h1 className='img-description-heading'>Jwel Trek</h1>
-                    <p className='img-description-para'>Travel</p>
-                </div>
-                </div>
-                
-
-                <div className="portfolio-box">
-                    <div className='portfolio-box2'>
-                    <div className="portfolio-box-content">
-                <img src="./images/samsungs9.png" alt="Photo"/>
-                </div>
-                    </div>
-
-                <div className='portfolio-img-description'>
-                    <h1 className='img-description-heading'>Otis Health</h1>
-                    <p className='img-description-para'>Health</p>
-                </div>
-            </div>
-
-            <div className="portfolio-box">
-                <div className="portfolio-box3">
-                <div className="portfolio-box3-content">
-                <img src="./images/macbookPro.png" alt="Photo"/>
-                </div>
-                </div>
-                <div className='portfolio-img-description'>
-                    <h1 className='img-description-heading'>EMR</h1>
-                    <p className='img-description-para'>Health</p>
-                </div>
-            </div>
-
-            <div className='portfolio-box'>
-                    <div className='portfolio-box1'>
-                    <div className='portfolio-box-content'>
-                       {/* <img src={JewelTrek} alt="Photo"/> */}
-                       <img src="./images/iphoneX.png" alt="Photo"/>
-                    </div>
-                    </div>
-                    <div className='portfolio-img-description'>
-                    <h1 className='img-description-heading'>Jwel Trek</h1>
-                    <p className='img-description-para'>Travel</p>
-                </div>
-                </div>
-                
-
-                <div className="portfolio-box">
-                    <div className='portfolio-box2'>
-                    <div className="portfolio-box-content">
-                <img src="./images/samsungs9.png" alt="Photo"/>
-                </div>
-                    </div>
-
-                <div className='portfolio-img-description'>
-                    <h1 className='img-description-heading'>Otis Health</h1>
-                    <p className='img-description-para'>Health</p>
-                </div>
-            </div>
-
-            <div className="portfolio-box">
-                <div className="portfolio-box3">
-                <div className="portfolio-box3-content">
-                <img src="./images/macbookPro.png" alt="Photo"/>
-                </div>
-                </div>
-                <div className='portfolio-img-description'>
-                    <h1 className='img-description-heading'>EMR</h1>
-                    <p className='img-description-para'>Health</p>
-                </div>
-            </div>
-            </div>
-
-
-
-            
-        </section>
+    <div className="services-section">
+      <div className="section-headers">
+        <h2>Our Portfolio</h2>
+      </div>
+      <div className="portfolio-container">
+        <div className="portfolio">
+          <div className="portfolio-img">
+            <img src="./images/iphoneX.png" />
+          </div>
+          <div className="portfolio-desc">
+            <p className="portfolio-desc-title">Jewel Trek</p>
+            <p className="portfolio-desc-category">Travel</p>
+          </div>
         </div>
+        <div className="portfolio">
+          <div className="portfolio-img portfolio-grey">
+            <img src="./images/samsungs92.png" />
+          </div>
+          <div className="portfolio-desc">
+            <p className="portfolio-desc-title">Perfecto</p>
+            <p className="portfolio-desc-category">Food</p>
+          </div>
+        </div>
+        <div className="portfolio">
+          <div className="portfolio-img portfolio-green">
+            <img src="./images/Mockup2.png" />
+          </div>
+          <div className="portfolio-desc">
+            <p className="portfolio-desc-title">Global EMR</p>
+            <p className="portfolio-desc-category">Health</p>
+          </div>
+        </div>
+        <div className="portfolio">
+          <div className="portfolio-img">
+            <img src="./images/iphoneX.png" />
+          </div>
+          <div className="portfolio-desc">
+            <p className="portfolio-desc-title">Jewel Trek</p>
+            <p className="portfolio-desc-category">Travel</p>
+          </div>
+        </div>
+        <div className="portfolio">
+          <div className="portfolio-img portfolio-grey">
+            <img src="./images/samsungs92.png" />
+          </div>
+          <div className="portfolio-desc">
+            <p className="portfolio-desc-title">Perfecto</p>
+            <p className="portfolio-desc-category">Food</p>
+          </div>
+        </div>
+        <div className="portfolio">
+          <div className="portfolio-img portfolio-green">
+            <img src="./images/Mockup2.png" />
+          </div>
+          <div className="portfolio-desc">
+            <p className="portfolio-desc-title">Global EMR</p>
+            <p className="portfolio-desc-category">Health</p>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
