@@ -18,12 +18,12 @@
     /* border: 1px solid red; */
 }
 
-.section-header {
+.sectionHeader {
     margin: 20px auto;
     text-align: center;
 }
 
-.section-header-content{
+.sectionHeaderContent{
     /* text-transform: capitalize; */
     color: #18191F;
     font-size: 48px;
@@ -33,7 +33,7 @@
    margin: 0 auto;
   
 }
-.section-header-paragraph{
+.sectionHeaderParagraph{
     color: #000000;
     opacity: 0.6;
     font-size: 14px;
@@ -42,8 +42,8 @@
    font-weight: 400;
   
 }
-.box-container {
-    max-width: 95%;
+.boxContainer {
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -58,14 +58,15 @@
     background-color: #529FA7;
     border: 1px solid #EDEDED;
     border-radius: 4px;
+    margin: 0 30px;
 }
 
-.box-content {
+.boxContent {
     margin-left: 20px;
     color: white;
 }
 
-.box-content-details {
+.boxContentDetails {
     max-width: 60%;
     text-align: justify;
     color: white;

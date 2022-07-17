@@ -1,37 +1,46 @@
-import React from 'react'
-import '../Navbar/Navbar.css'
+import React, {Component} from 'react';
+import {MenuItems} from './MenuItems';
+import './Navbar.css';
+import {FaBars, FaTimes} from 'react-icons/fa';
+import { Button } from '../Button/Button';
 
-const Navbar = () => {
-  return (
-    <>
-    <div className='centerContainer'>
-    <div className='wrapper'>
-      <div className='containerNavbar'>
-          <div className='leftNavbarLogo'>
-          <img src="./images/esrlogo.png"  alt="logo"></img>
-          </div>
-          <div className='centerNavbar'>
-          <ul className='centerNavbarul'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
-        </ul>
-          </div>
 
-          <div className='rightNavbar'>
-          <button className='buttonNavbar'>
-              Let's Talk
-            </button>
-          </div>
-  
-      </div>
-
-    </div>
-    </div>
-    </>
-  )
+class Navbar extends Component{
+  state = {clicked :false}
+handleClick = () =>{
+  this.setState({clicked: !this.state.clicked})
 }
 
-export default Navbar
+
+  render(){
+    return(
+      <nav className='navbarItems'>
+        {/* <h1 className='navbarLogo'>ESR Tech</h1> */}
+        <div className='navbarLogo'>
+        <img src="./images/esrlogo.png"  alt="logo"></img>
+        </div> 
+        <div className='menuIcon' onClick = {this.handleClick}>
+        
+              {/* <i className={this.state.clicked ? <FaTimes/> : <FaBars/>}><FaBars/>,<FaTimes/></i> */}
+              {this.state.clicked ? <FaTimes /> : <FaBars/>}
+              
+              {/* <i classname="dallu"></i> */}
+                </div>
+        <ul className={this.state.clicked? 'nav-menu active' : 'nav-menu'}>
+          {MenuItems.map((item,index) => {
+            return(
+              <li key={index}>
+                <a className={item.cName} href={item.url}>
+                  {item.title}
+                </a>
+              </li>
+            )
+          })}
+         
+        </ul>
+        <Button>Let's Talk</Button>
+      </nav>
+    )
+  }
+}
+export default Navbar;
