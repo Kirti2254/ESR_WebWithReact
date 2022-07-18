@@ -13,7 +13,8 @@
   color: #529fa7;
   font-size: 48px;
   text-align: center;
-  margin: 40px;
+  margin: 20px 0;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 700px) {
@@ -23,7 +24,7 @@
 }
 
 .slider-container {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -42,6 +43,7 @@
 
 .slide-userInfo {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   width: 55%;
   position: relative;
@@ -49,14 +51,15 @@
 
 .slide-userImg {
   justify-content: center;
+  align-items: center;
   display: flex;
   width: 35%;
-  height: 400px;
+  height: 320px;
 }
 
 .slide-userImg img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .slide-userInfo-testimony {
@@ -112,6 +115,7 @@
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  margin-bottom: 30px;
 }
 .dot {
   width: 10px;

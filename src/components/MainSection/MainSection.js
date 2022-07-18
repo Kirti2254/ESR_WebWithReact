@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 import "./mainSection.css";
 
 const MainSection = () => {
   return (
     <div className="hero-container">
+      <Navbar />
       <div className="hero-wrapper">
         <div className="hero-left-content">
           <h1 className="headingMainSection">
@@ -20,6 +22,9 @@ const MainSection = () => {
             <img src="./images/Image.png" alt="image" />
           </div>
         </div>
+      </div>
+      <div className="background-esr">
+        <h2>ESR Tech</h2>
       </div>
     </div>
   );

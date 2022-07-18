@@ -96,11 +96,24 @@ const GetInTouch = () => {
                 <img src="./images/locationVector.png" />
               </div>
               <div className="info-location">
-                <p>CALIFORNIA, USA</p>
-                {/* <p>KANSAS, USA</p>
-                <p>TEXAS, USA</p>
-                <p>SINGAPORE, SINGAPORE</p>
-                <p>KATHMANDU, NEPAL</p> */}
+                <div className="info-location-details">
+                  <p>CALIFORNIA, USA</p>
+                  <p>KANSAS, USA</p>
+                  <p>TEXAS, USA</p>
+                  <p>SINGAPORE, SINGAPORE</p>
+                  <p>KATHMANDU, NEPAL</p>
+                  <div className="info-social-medias">
+                    <div className="social-media">
+                      <img src="./images/Twitter.png" />
+                    </div>
+                    <div className="social-media">
+                      <img src="./images/Linkedin.png" />
+                    </div>
+                    <div className="social-media">
+                      <img src="./images/Youtube.png" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

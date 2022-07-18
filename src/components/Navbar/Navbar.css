@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2 rem;
-  width: 90%;
+  width: 70%;
   margin: 20px auto;
 }
 
@@ -37,7 +37,7 @@
 
 .nav-links {
   color: #213053;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   text-decoration: none;
   /* background-color: red; */
