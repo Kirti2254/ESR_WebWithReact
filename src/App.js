@@ -6,6 +6,7 @@ import { Portfolio } from "./components/portFolio/portFolio";
 import GetInTouch from "./components/getInTouch/getinTouch";
 import TestimonialSlider from "./components/testimonialSlider/testimonialSlider";
 import "./App.css";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <TestimonialSlider />
       <GetInTouch />
+      <Footer />
     </div>
   );
 }

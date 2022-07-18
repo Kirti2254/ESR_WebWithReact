@@ -72,6 +72,7 @@ const GetInTouch = () => {
             <button>Submit</button>
           </form>
         </div>
+        <div className="line"></div>
         <div className="first-container">
           <div class="info-container">
             <h2>

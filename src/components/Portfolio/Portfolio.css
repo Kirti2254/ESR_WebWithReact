@@ -15,6 +15,48 @@
   flex-wrap: wrap;
 }
 
+.portfolio-menu {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* .portfolio-menu-container::after {
+  content: "";
+  width: 200px;
+  border-bottom: 2px solid #529fa7;
+} */
+
+.sub-menu {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 22px;
+  /* identical to box height, or 110% */
+
+  text-align: center;
+
+  color: #213053;
+}
+
+.sub-menu-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.sub-menu-icon img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sub-menu p {
+  margin-left: 20px;
+}
+
 .portfolio {
   margin: 25px 0px;
 }

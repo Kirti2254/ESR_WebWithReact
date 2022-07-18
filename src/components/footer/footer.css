@@ -1,0 +1,69 @@
+.footer-section {
+  width: 100%;
+  background: #213053;
+  padding: 2em 0;
+}
+
+.footer-container {
+  padding: 2em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 300 */
+
+  color: #d9dbe1;
+}
+
+.footer-content-terms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content-terms p {
+  margin-right: 20px;
+}
+
+.footer-btn {
+  width: 130px;
+  height: 65px;
+  left: 0.5px;
+  top: 0.5px;
+  border: none;
+  background: #f25f46;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.footer-btn-wrapper:before,
+.footer-btn-wrapper:after {
+  content: "";
+  width: 820px;
+  height: 1px;
+  margin: 0 10px;
+  vertical-align: super;
+  background: #ffffff;
+  opacity: 0.2;
+  display: inline-block;
+}
