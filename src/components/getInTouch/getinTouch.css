@@ -12,14 +12,32 @@
   justify-content: space-between;
 }
 
-.contact-form > * {
+.contact-form .second-container {
   width: 43%;
 }
 
 .contact-form .first-container {
+  width: 43%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.line {
+  width: 10%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  border-right: 1px solid #213053;
+  top: 5%;
+  bottom: 2%;
+  opacity: 0.4;
 }
 
 .contact-form .first-container h2 {

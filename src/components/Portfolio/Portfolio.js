@@ -7,6 +7,41 @@ export const Portfolio = () => {
       <div className="section-headers">
         <h2>Our Portfolio</h2>
       </div>
+      <div className="portfolio-menu-container">
+        <div className="portfolio-menu">
+          <div className="sub-menu">
+            <div className="sub-menu-icon">
+              <img src="./images/allMenuIcon.png" alt="icon" />
+            </div>
+            <p>All</p>
+          </div>
+          <div className="sub-menu">
+            <div className="sub-menu-icon">
+              <img src="./images/healthIcon.png" alt="icon" />
+            </div>
+            <p>Health</p>
+          </div>
+          <div className="sub-menu">
+            <div className="sub-menu-icon">
+              <img src="./images/travelIcon.png" alt="icon" />
+            </div>
+            <p>Travel</p>
+          </div>
+          <div className="sub-menu">
+            <div className="sub-menu-icon">
+              <img src="./images/energyIcon.png" alt="icon" />
+            </div>
+            <p>Energy</p>
+          </div>
+          <div className="sub-menu">
+            <div className="sub-menu-icon">
+              <img src="./images/sportsIcon.png" alt="icon" />
+            </div>
+            <p>Sports</p>
+          </div>
+        </div>
+      </div>
+
       <div className="portfolio-container">
         <div className="portfolio">
           <div className="portfolio-img">
