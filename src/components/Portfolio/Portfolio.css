@@ -1,6 +1,6 @@
 .service {
   box-sizing: border-box;
-  width: 440px;
+  width: 400px;
   height: 530px;
   background: #529fa7;
   box-shadow: 13px 12px 34px rgba(0, 0, 0, 0.34);
@@ -16,11 +16,13 @@
 }
 
 .portfolio-menu {
-  width: 85%;
+  width: 87%;
   margin: 20px auto;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  padding: 10px 30px;
+  border-bottom: 1px solid rgb(224, 221, 221);
 }
 
 /* .portfolio-menu-container::after {
@@ -30,6 +32,7 @@
 } */
 
 .sub-menu {
+  position: relative;
   width: 120px;
   height: 40px;
   display: flex;
@@ -41,7 +44,18 @@
   text-align: center;
 
   color: #213053;
+  padding-bottom: 20px;
+  /* border-bottom: 2px solid #529fa7; */
 }
+
+/* .sub-menu::after {
+  content: "";
+  top: 50px;
+  position: absolute;
+  width: 280px;
+  height: 0px;
+  border: 2px solid #529fa7;
+} */
 
 .sub-menu-icon {
   width: 50px;
@@ -64,7 +78,7 @@
 .portfolio-img {
   padding: 40px;
   padding-bottom: 0px;
-  width: 440px;
+  width: 400px;
   height: 400px;
   background: #a0dcff;
   vertical-align: middle;

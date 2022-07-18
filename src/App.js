@@ -7,18 +7,18 @@ import GetInTouch from "./components/getInTouch/getinTouch";
 import TestimonialSlider from "./components/testimonialSlider/testimonialSlider";
 import "./App.css";
 import Footer from "./components/footer/footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/homePage/homePage";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <MainSection />
-      <Services />
-      <Portfolio />
-      <TestimonialSlider />
-      <GetInTouch />
-      <Footer />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

@@ -1,25 +1,27 @@
 .hero-container {
-  padding: 50px 0;
+  padding: 10px 0;
   width: 100%;
   background: #ebf5ff;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .hero-wrapper {
-  max-width: 90%;
+  max-width: 70%;
   margin-top: 40px;
-  margin: 2em auto;
+  margin: 4em auto;
+  padding-bottom: 2em;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .hero-left-content {
-  width: 65%;
+  width: 60%;
 }
 
 .hero-right-content {
-  width: 30%;
+  width: 40%;
 }
 
 .containerMainSection {
@@ -53,7 +55,7 @@
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
-  font-size: 112px;
+  font-size: 78px;
   line-height: 110px;
   /* or 123% */
 
@@ -92,4 +94,22 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.background-esr h2 {
+  font-weight: 900;
+  font-size: 150px;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: 774px;
+  left: -27px;
+  /* line-height: 350px; */
+  /* identical to box height, or 206% */
+  color: #213053;
+  opacity: 0.15;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  bottom: 0;
 }
