@@ -4,8 +4,14 @@ import "./mainSection.css";
 
 const MainSection = () => {
   return (
-    <div className="hero-container">
+    <div
+      style={{ backgroundImage: "url('./images/BG.png')" }}
+      className="hero-container"
+    >
       <Navbar />
+      {/* <div className="background-img">
+        <img src="./images/BG.png" alt="background" />
+      </div> */}
       <div className="hero-wrapper">
         <div className="hero-left-content">
           <h1 className="headingMainSection">

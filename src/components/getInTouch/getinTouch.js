@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./getinTouch.css";
 
 const GetInTouch = () => {
+  const [services, setServices] = useState({
+    webApp: false,
+    mobileApp: false,
+    cyberSecurity: false,
+    machineLearning: false,
+    customSoftware: false,
+  });
+
+  const onClickServices = (name) => {
+    const status = services[name];
+    setServices((prevState) => ({
+      ...prevState,
+      [name]: !status,
+    }));
+  };
+
   return (
     <section className="getinTouch-section">
       <div className="contact-form">
@@ -42,21 +58,60 @@ const GetInTouch = () => {
             <div className="services-group">
               <label for="budget">Services</label>
               <div className="services-container">
-                <div className="services services-active services-one">
-                  <p>Web App</p>
+                <div
+                  className={
+                    services.webApp
+                      ? "services services-active services-one"
+                      : "services services-one"
+                  }
+                  onClick={() => onClickServices("webApp")}
+                >
+                  <p defaultValue={"webApp"}>Web App</p>
                 </div>
-                <div className="services services-two">
+                <div
+                  className={
+                    services.mobileApp
+                      ? "services services-active services-two"
+                      : "services services-two"
+                  }
+                  name="mobileApp"
+                  onClick={() => onClickServices("mobileApp")}
+                >
                   <p>Mobile App</p>
                 </div>
-                <div className="services services-three">
+                <div
+                  className={
+                    services.cyberSecurity
+                      ? "services services-active services-three"
+                      : "services services-three"
+                  }
+                  name="cyberSecurity"
+                  onClick={() => onClickServices("cyberSecurity")}
+                >
                   <p>Cybersecurity</p>
                 </div>
               </div>
               <div className="second-services-container">
-                <div className="services services-four second-services">
+                <div
+                  className={
+                    services.machineLearning
+                      ? "services services-active services-four second-services"
+                      : "services services-four second-services"
+                  }
+                  name="machineLearning"
+                  onClick={() => onClickServices("machineLearning")}
+                >
                   <p>Machine Learning</p>
                 </div>
-                <div className="services services-five second-services">
+                <div
+                  className={
+                    services.customSoftware
+                      ? "services services-active services-five second-services"
+                      : "services services-five second-services"
+                  }
+                  name="customSoftware"
+                  onClick={() => onClickServices("customSoftware")}
+                >
                   <p>Custom Software</p>
                 </div>
               </div>
